@@ -8,3 +8,58 @@ Database hosten on AWS.
 
 
 Login/Register system uses jwt authentication and is connected to a node backend that accepts both REST api and GRAPHQL api. The data gets stored in a MongoDB database.
+
+
+Backend testable via postman: https://chargemaptom.jelastic.metropolia.fi/graphql
+
+
+{
+  stocks{
+    id
+    Symbol
+    Stockname
+    Price
+
+  }
+}
+
+
+{
+  stock(id: "60900a86062cb6212471105b"){
+    Symbol
+    Stockname
+    Price
+
+  }
+}
+
+
+mutation {
+  addStock(
+    Symbol: "TST",
+    Stockname: "Test",
+    Price: "3.14",
+  )
+  {
+ 	Symbol,   
+  }
+}
+
+
+mutation {
+modifyStock(
+            id: "60900a86062cb6212471105b"
+            Price: "12.19"
+            Symbol: "AMZN"
+)
+  {
+      Symbol
+  }
+}
+
+
+
+mutation
+{
+    deleteStock(id: "609036bc5ebe042886adae46")
+}
