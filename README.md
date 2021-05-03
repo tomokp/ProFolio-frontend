@@ -1,4 +1,4 @@
-Frontend: https://60902583179ce800ad389930--nervous-jennings-aa1637.netlify.app/login
+Frontend: https://60902583179ce800ad389930--nervous-jennings-aa1637.netlify.app
 
 Frontend node hosted on Netlify.
 
