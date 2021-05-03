@@ -68,3 +68,5 @@ Delete stock:
     {
         deleteStock(id: "609036bc5ebe042886adae46")
     }
+
+Backend github: https://github.com/tomokp/ProFolio
