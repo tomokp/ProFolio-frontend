@@ -1,5 +1,5 @@
 
-Frontend: https://60902ddb7c441e00d2f70763--quizzical-keller-1e892a.netlify.app
+Frontend: https://60902ddb7c441e00d2f70763--quizzical-keller-1e892a.netlify.app (only login/register works)
 
 Frontend node hosted on Netlify.
 
