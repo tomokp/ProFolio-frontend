@@ -1,5 +1,7 @@
 The idea of this application is that you can make an account and add stocks/cryptocurrencies/fiats to your account so you can see the value of your complete financial asset portfolio.
 
+Currently only authenticated login/register works and backend CRUD.
+
 Frontend: https://60902ddb7c441e00d2f70763--quizzical-keller-1e892a.netlify.app (only login/register works)
 
 Frontend node hosted on Netlify.
